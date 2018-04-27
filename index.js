@@ -13,7 +13,5 @@ function scuberGreetingForFeet (feet) {
 
 function ternaryCheckCity (city) {
   // return (isMember ? "$2.00" : "$10.00");
-
   return (city == "NYC" ? 'Ok, sounds good.' :  "No go.")
-  return city
 };
