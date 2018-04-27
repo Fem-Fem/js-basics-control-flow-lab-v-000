@@ -15,3 +15,14 @@ function ternaryCheckCity (city) {
   // return (isMember ? "$2.00" : "$10.00");
   return (city == "NYC" ? 'Ok, sounds good.' :  "No go.")
 };
+
+function switchOnCharmFromTip (tip) {
+  switch(tip) {
+    case 'generous':
+      return "Thank you so much.";
+    case 'not so generous':
+      return "Thank you."
+    default:
+      return "Bye."
+  }
+}
